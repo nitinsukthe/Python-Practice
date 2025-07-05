@@ -9,6 +9,6 @@ def printDivisors(n,factors):
 if __name__=="__main__":
     number1,number2=6,28
     if int(printDivisors(number1,[])/number1)==int(printDivisors(number2,[])/number2):
-        print("Friendly pair")
+        print(f"{number1},{number2} is a Friendly pair")
     else:
-        print("Not a Friendly pair")
+        print(f"{number1},{number2} is not a Friendly pair")
