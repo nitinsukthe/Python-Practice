@@ -1,0 +1,5 @@
+String=input("Enter String: ")
+str1=input("Enter substring which has to be replaced: ")
+str2=input("Enter subsring with which str1 has to be replaced: ")
+String=String.replace(str1,str2)
+print(f"String after replacement: {String}")
